@@ -1,0 +1,250 @@
+<style>
+    .intro-section{
+        text-align: center;
+        color: white;
+        padding: 20px;
+    }
+    .search-box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+
+    }
+    .search-input{
+        width: 300px;
+        background-color: rgb(19, 23, 42);
+        margin-right: 10px;
+        border-color: rgba(255, 255, 255, 0.5);
+    }
+    .product-category{
+        width: 200px;  
+    }
+    .form-control{
+        background-color: transparent;
+        color: white;
+    }
+
+    .form-control::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgba(255, 255, 255, 0.5);
+    opacity: 1;
+    /* Firefox */
+    }
+
+    .form-control:-ms-input-placeholder {
+        /* Internet Explorer 10-11 */
+        color: rgba(255, 255, 255, 0.5);
+    }
+
+    .form-control::-ms-input-placeholder {
+        /* Microsoft Edge */
+        color: rgba(255, 255, 255, 0.5);
+    }
+    .product-item{
+        background-color: rgb(19, 23, 42);
+        border: 1px solid rgb(35, 39, 61);
+        border-radius: 20px;
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+    .product-image{
+        width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+    .product-name{
+        color: white;
+    }
+    .product-description{
+        color: rgb(173, 178, 203);
+    }
+    .product-warranty{
+        color: rgb(242, 126, 212);
+    }
+    .product-rating{
+        color: #FFD700;
+        margin-top: 10px;   
+    }
+    .product-actions{
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .space-x {
+    margin: 0 5px;
+    /*margin-top, margin-right, margin-bottom, margin-left*/
+}
+
+</style>
+
+<div class="container">
+    <div class="intro-section">
+        <h1>Day la trang home</h1>
+        <p>Trang nay hien thi danh sach cac san pham kem anh</p>
+        <p>Cac ban co the chon xem san pham va mua hang tai day</p>
+    </div>
+    <div class="search-box">
+        <input type="text" class="form-control search-input" placeholder="Tim san pham">
+        <select name="select-category" class = "form-control product-category">
+            <option disabled selected>Category</option>
+            <option>Do dien tu</option>
+            <option>Do gia dung</option>
+            <option>Hai san</option>
+        </select>
+    </div>
+    <div class="row">
+        <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="product-item">
+                <img src="https://images.pexels.com/photos/245032/pexels-photo-245032.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="product-image">
+                <div class="product-name">
+                    <h2>Product 1</h2>
+                </div>
+                <div class="product-description">
+                    <span>Lorem ipsum dolor sit amet consectetur adipisicing 
+                        elit. Doloremque, harum dolorum mollitia minima alias et ab illum atque quae omnis 
+                        quis necessitatibus ducimus dolorem soluta aliquid a! Consectetur, dignissimos! Iure!</span>
+                </div>
+                <div class="product-warranty">
+                    <p>12 thang bao hanh</p>
+                </div>
+                <div class="product-price"> Gia: <del>$200</del> $100</div>
+                <div class="product-rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star-half-stroke"></i>
+                </div>
+                <div class="product-actions">
+                    <button class="btn btn-primary">Them vao gio hang</button>
+                    <span class="space-x"></span>
+                    <button class="btn btn-success">Mua ngay</button>
+                </div>
+            </div>
+            
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="product-item">
+                <img src="https://images.pexels.com/photos/245032/pexels-photo-245032.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="product-image">
+                <div class="product-name">
+                    <h2>Product 1</h2>
+                </div>
+                <div class="product-description">
+                    <span>Lorem ipsum dolor sit amet consectetur adipisicing 
+                        elit. Doloremque, harum dolorum mollitia minima alias et ab illum atque quae omnis 
+                        quis necessitatibus ducimus dolorem soluta aliquid a! Consectetur, dignissimos! Iure!</span>
+                </div>
+                <div class="product-warranty">
+                    <p>12 thang bao hanh</p>
+                </div>
+                <div class="product-price"> Gia: <del>$200</del> $100</div>
+                <div class="product-rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star-half-stroke"></i>
+                </div>
+                <div class="product-actions">
+                    <button class="btn btn-primary">Them vao gio hang</button>
+                    <span class="space-x"></span>
+                    <button class="btn btn-success">Mua ngay</button>
+                </div>
+            </div>
+            
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="product-item">
+                <img src="https://images.pexels.com/photos/245032/pexels-photo-245032.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="product-image">
+                <div class="product-name">
+                    <h2>Product 1</h2>
+                </div>
+                <div class="product-description">
+                    <span>Lorem ipsum dolor sit amet consectetur adipisicing 
+                        elit. Doloremque, harum dolorum mollitia minima alias et ab illum atque quae omnis 
+                        quis necessitatibus ducimus dolorem soluta aliquid a! Consectetur, dignissimos! Iure!</span>
+                </div>
+                <div class="product-warranty">
+                    <p>12 thang bao hanh</p>
+                </div>
+                <div class="product-price"> Gia: <del>$200</del> $100</div>
+                <div class="product-rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star-half-stroke"></i>
+                </div>
+                <div class="product-actions">
+                    <button class="btn btn-primary">Them vao gio hang</button>
+                    <span class="space-x"></span>
+                    <button class="btn btn-success">Mua ngay</button>
+                </div>
+            </div>
+            
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="product-item">
+                <img src="https://images.pexels.com/photos/245032/pexels-photo-245032.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="product-image">
+                <div class="product-name">
+                    <h2>Product 1</h2>
+                </div>
+                <div class="product-description">
+                    <span>Lorem ipsum dolor sit amet consectetur adipisicing 
+                        elit. Doloremque, harum dolorum mollitia minima alias et ab illum atque quae omnis 
+                        quis necessitatibus ducimus dolorem soluta aliquid a! Consectetur, dignissimos! Iure!</span>
+                </div>
+                <div class="product-warranty">
+                    <p>12 thang bao hanh</p>
+                </div>
+                <div class="product-price"> Gia: <del>$200</del> $100</div>
+                <div class="product-rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star-half-stroke"></i>
+                </div>
+                <div class="product-actions">
+                    <button class="btn btn-primary">Them vao gio hang</button>
+                    <span class="space-x"></span>
+                    <button class="btn btn-success">Mua ngay</button>
+                </div>
+            </div>
+            
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-12">
+            <div class="product-item">
+                <img src="https://images.pexels.com/photos/245032/pexels-photo-245032.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" class="product-image">
+                <div class="product-name">
+                    <h2>Product 1</h2>
+                </div>
+                <div class="product-description">
+                    <span>Lorem ipsum dolor sit amet consectetur adipisicing 
+                        elit. Doloremque, harum dolorum mollitia minima alias et ab illum atque quae omnis 
+                        quis necessitatibus ducimus dolorem soluta aliquid a! Consectetur, dignissimos! Iure!</span>
+                </div>
+                <div class="product-warranty">
+                    <p>12 thang bao hanh</p>
+                </div>
+                <div class="product-price"> Gia: <del>$200</del> $100</div>
+                <div class="product-rating">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star-half-stroke"></i>
+                </div>
+                <div class="product-actions">
+                    <button class="btn btn-primary">Them vao gio hang</button>
+                    <span class="space-x"></span>
+                    <button class="btn btn-success">Mua ngay</button>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
